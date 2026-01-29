@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>For My Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- The "Enter" Screen (Needed for Music) -->
+    <div id="overlay">
+        <div class="content">
+            <h1>Hey Baby</h1>
+            <p>I made something for you.</p>
+            <button id="startButton">Tap to Open My Heart</button>
+        </div>
+    </div>
+
+    <!-- The 3D Canvas -->
+    <canvas id="heart"></canvas>
+    
+    <!-- Hidden Music Player -->
+    <audio id="music" loop>
+        <source src="music.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <!-- Our Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
